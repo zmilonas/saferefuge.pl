@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 h2 {
-    @apply text-4xl mt-8 mb-3 font-bold;
+    @apply text-4xl mt-8 mb-3 font-extrabold;
 }
