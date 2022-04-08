@@ -10,9 +10,9 @@
   <link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}" />
 
   </head>
-  <body>
+  <body class="mb-12">
   <nav>
-    <div class="container mx-auto py-4">
+    <div class="container mx-auto py-4 text-2xl">
       <div class="flex items-center justify-between">
         <div class="flex items-center">
           <a href="/" class="flex items-center">
@@ -20,16 +20,16 @@
           </a>
         </div>
         <div class="flex items-center font-extrabold">
-          <a href="/" class="block hover:text-gray-900 focus:outline-none focus:text-gray-900">
+          <a href="/" class="block hover:text-gray-500 focus:outline-none focus:text-gray-500">
             home
           </a>
-          <a href="/adaptive-reuse" class="ml-4 block hover:text-gray-900 focus:outline-none focus:text-gray-900">
+          <a href="/adaptive-reuse" class="ml-4 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
             adaptive reuse
           </a>
-          <a href="/transitional-house" class="ml-4 block hover:text-gray-900 focus:outline-none focus:text-gray-900">
+          <a href="/transitional-house" class="ml-4 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
             transitional house
           </a>
-          <a href="/education" class="ml-4 block hover:text-gray-900 focus:outline-none focus:text-gray-900">
+          <a href="/education" class="ml-4 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
             education
           </a>
         </div>
@@ -43,8 +43,16 @@
       <!-- The part of the page that begins to differ between templates -->
     {{ end }}
     {{ block "footer" . }}
-    <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
-    {{ end }}
+        <h2 class="text-center">join us</h2>
+        <section class="w-full px-4 text-center mx-auto lg:max-w-2xl">
+        <p>If your institution, company or press identifies with the aims and activities of our project you can participate as our sponsor</p>
+          <div class="block flex justify-center mt-4">
+            <a href="mailto:contact@projectsaferefuge.com" class="p-2 px-6 border-2 border-black rounded-xl">contact@projectsaferefuge.com</a>
+          </div>
+        </section>
+  <hr class="m-8 border-gray-400" />
+  <p class="text-center text-sm text-gray-400">&copy; 2022 All rights reserved</p>
+  {{ end }}
 
 
 

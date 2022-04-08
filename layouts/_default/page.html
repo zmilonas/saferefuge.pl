@@ -1,0 +1,11 @@
+{{ define "title" }}
+{{ .Title }} | {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+<main class="mx-8 mt-12 text-justify">
+    <h1>{{ .Title }}</h1>
+    <article>
+        {{ .Content }}
+    </article>
+</main>
+{{ end }}
