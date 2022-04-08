@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./assets/css/input.css -o ./assets/css/index.css --jit",
-    "dev": "yarn build && hugo -D serve"
+    "tailwind": "tailwindcss -i ./assets/css/input.css -o ./assets/css/index.css --jit",
+    "dev": "yarn build && hugo -D serve",
+    "build": "yarn tailwind && hugo && cp assets/css/*.css public/css"
   },
   "keywords": [],
   "author": "",
