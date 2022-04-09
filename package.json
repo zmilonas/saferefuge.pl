@@ -6,7 +6,7 @@
   "scripts": {
     "tailwind": "tailwindcss -i ./assets/css/input.css -o ./assets/css/index.css --jit",
     "dev": "yarn build && hugo -D serve",
-    "build": "yarn tailwind && hugo && mkdir -p ./public/css && cp -v ./assets/css/*.css ./public/css"
+    "build": "yarn tailwind --minify && hugo --gc --minify"
   },
   "keywords": [],
   "author": "",
