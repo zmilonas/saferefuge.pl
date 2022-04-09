@@ -7,7 +7,7 @@
   {{ end }}</title>
   {{ $css := resources.Get "/css/index.css" | fingerprint "md5" }}
 
-  <link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}" />
+  <link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}" />
 
   </head>
   <body class="mb-12">
