@@ -3,7 +3,7 @@ title: Adaptive Reuse
 layout: page
 ---
 
-A modular unit that can be used as a temporary living space for those who will be rebuilding Ukraine once the war ends. The project will be developed through participatory processes, in consideration of the community needs and demands of the local climate. In collaboration with TU Delft, we are designing transitional housing units adapted to climate and social needs to be sent to Ukraine after the war. We want to provide shelter for those rebuilding the country/internal migrants.
+A database of vacant buildings and strategies for their adaptation to housing, education, and related functions. We are primarily targeting small and medium-sized cities in Poland that are not in the spotlight but currently face a large influx of people. We hope in a later step, the solutions we propose could also inspire change in other European cities. We are looking for strategies to adapt these abandoned buildings in cities in Poland into flats, workplaces and other needed functions to support sustainable development and avoid ghettoisation.
 
-**why?** Existing solutions are not suitable for the cold climate with harsh winters that the shetler will need to operate in. The users group is also specific - it is likely that the unit will host reunited families and extended families, not a group of strangers. We feel that for an adequate response, learning from the residents of Ukraine in a participatory process is necessary
+**why?** At this moment of rapid change, we need to think of systemic solutions and a strategy for upgrading the cities in a longer perspective with adequate housing, urban infrastructure and opportunities for residents. We hope our effort, time, and help with finding resources for the investments can encourage solutions that will be sustainable from the environmental, social and economic point of view.
 
