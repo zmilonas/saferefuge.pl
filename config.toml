@@ -3,3 +3,6 @@ languageCode = 'en-us'
 title = 'project safe refuge'
 canonifyurls = false
 relativeURLs = true
+
+[markup.goldmark.renderer]
+  unsafe = true

@@ -10,7 +10,7 @@
   <link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}" />
 
   </head>
-  <body class="mb-12">
+  <body class="mx-80 mb-12">
   <nav>
     <div class="container mx-auto p-4 text-xl md:text-2xl">
       <div class="flex items-center justify-between">
@@ -20,17 +20,23 @@
           </a>
         </div>
         <div class="flex justify-end  flex-1 flex-col md:flex-row font-extrabold">
-          <a href="/" class="ml-4 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
+          <a href="https://supporttudelft.nl/project/safe-refuge" class="ml-6 block hover:bg-black hover:text-white px-6 border-2 border-black rounded-xl">
+            donate
+          </a>
+          <a href="/" class="ml-6 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
             home
           </a>
-          <a href="/adaptive-reuse" class="ml-4 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
+          <a href="/adaptive-reuse" class="ml-6 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
             adaptive reuse
           </a>
-          <a href="/transitional-house" class="ml-4 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
+          <a href="/transitional-house" class="ml-6 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
             transitional house
           </a>
-          <a href="/education" class="ml-4 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
+          <a href="/education" class="ml-6 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
             education
+          </a>
+          <a href="/our-team" class="ml-6 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
+            our team
           </a>
         </div>
       </div>
@@ -40,25 +46,11 @@
     {{ block "main" . }}
     {{ end }}
     {{ block "footer" . }}
-        <h2 class="text-center">join us</h2>
-        <section class="w-full px-4 text-center mx-auto lg:max-w-2xl">
-        <p>If your institution, company or press identifies with the aims and activities of our project you can participate as our sponsor</p>
-          <div class="block flex justify-center mt-4">
-            <a href="mailto:support@saferefuge.pl" class="p-2 px-6 border-2 border-black rounded-xl">support@saferefuge.pl</a>
-          </div>
-        </section>
-  <h2 class="text-center">contact us</h2>
-  <section class="w-full px-4 text-center mx-auto lg:max-w-2xl">
-  <p>For more information contact the Project Safe Refuge communication team:</p>
 
-    <div class="block flex justify-center mt-4">
-      <a href="mailto:contact@saferefuge.pl" class="p-2 px-6 border-2 border-black rounded-xl">contact@saferefuge.pl</a>
-    </div>
-  </section>
   <hr class="m-8 border-gray-400" />
   <p class="text-center text-sm text-gray-400">&copy; 2022 All rights reserved</p>
   {{ end }}
-
+  </div>
   </body>
 </html>
 
