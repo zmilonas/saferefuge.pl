@@ -2,6 +2,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <div class="ml-10"></div> <!-- dummy div with classes used in markdown files-->
   <title>{{ block "title" . }}
     {{ .Site.Title }}
   {{ end }}</title>
@@ -10,34 +11,34 @@
   <link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}" />
 
   </head>
-  <body class="mx-60 mb-12">
+  <body class="container mx-auto mb-12">
   <nav>
-    <div class="container mx-auto p-4 text-xl md:text-2xl">
+    <div class="p-4">
       <div class="flex items-center justify-between">
         <div class="flex items-center">
           <a href="/" class="flex items-center">
-            <img src="/logo.svg" alt="Logo" class="h-28 lg:h-48">
+            <img src="/logo.svg" alt="Logo" class="h-32 sm:h-40 md:h-48">
           </a>
         </div>
-        <div class="flex justify-end  flex-1 flex-col md:flex-row font-extrabold">
-          <div>
-          <a href="https://supporttudelft.nl/project/safe-refuge" class="align-baseline text-center ml-4 block hover:bg-black hover:text-white px-6 border-2 border-black rounded-xl">
+        <div class="flex flex-col font-extrabold text-xl text-right lg:text-2xl lg:flex-row">
+          <div class="block lg:ml-4">
+          <a href="https://supporttudelft.nl/project/safe-refuge" class="align-baseline hover:bg-black hover:text-white px-6 border-2 border-black rounded-xl">
             donate
           </a>
           </div>
-          <a href="/our-team" class="ml-4 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
-            team
-          </a>
-          <a href="/education" class="ml-4 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
-            education
-          </a>
-          <a href="/adaptive-reuse" class="text-center ml-4 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
+          <a href="/adaptive-reuse" class="block lg:ml-2 xl:ml-4 hover:text-gray-500 focus:outline-none focus:text-gray-500">
             adaptive reuse
           </a>
-          <a href="/transitional-house" class="text-center ml-4 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
+          <a href="/transitional-house" class="lg:ml-2 xl:ml-4 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
             transitional house
           </a>
-        </div>
+          <a href="/education" class="lg:ml-2 xl:ml-4 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
+            education
+          </a>
+          <a href="/our-team" class="lg:ml-2 xl:ml-4 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
+            team
+          </a>
+          </div>
       </div>
     </div>
   </nav>
