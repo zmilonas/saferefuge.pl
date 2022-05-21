@@ -12,3 +12,6 @@ relativeURLs = true
   [languages.en]
     languageName = "English"
     weight = 1
+  [languages.jp]
+    languageName = "日本語"
+    weight = 1

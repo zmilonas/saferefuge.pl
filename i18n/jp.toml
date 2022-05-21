@@ -1,0 +1,52 @@
+[donate]
+other = "donate"
+
+[adaptive_reuse]
+other = "adaptive reuse"
+
+[transitional_house]
+other = "transitional house"
+
+[education]
+other = "education"
+
+[team]
+other = "team"
+
+[copyright]
+other = "All rights reserved"
+
+[contact_us]
+other = "contact us"
+
+[contact_us_paragraph]
+other = """
+私たちのプロジェクトに質問や疑問があればぜひ連絡をしてください。
+"""
+
+[support_us]
+other = "support us"
+
+[support_us_paragraph]
+other = """
+もし私たちと同じ意思、目的があれば是非とも連絡をしてください！寄付、スポンサーとしての支援も大歓迎です。
+"""
+
+[about_us]
+other = "about us"
+
+[about_us_paragraph]
+other = """
+私たちの最初の行動はウクライナ難民への対応と、難民保護を行っている国々への支援活動です。特にポーランドは多くの難民を保護しており、また多くの支援を必
+要としています。現在は30名以上の若い建築家、研究者たちがこのプロジェクトに参加しており、長期的な活動、支援を行っていきます。
+"""
+
+[our_mission]
+other = "our mission"
+
+[our_mission_paragraph]
+other = """
+危機的状況での素早い支援、対策はとても大切ですが、また同様に計画的、長期的な視点も必要です。私たちは緊急事態だけでなく、その後も長い期間住めるような
+居住の供給、解決に向けて努力をしています。私たちの目標は有力なデザイナーたちがウクライナのように危機に瀕している国、地域を助けられるような支援を行う
+ことです。
+"""
