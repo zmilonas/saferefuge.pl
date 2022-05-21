@@ -16,29 +16,38 @@
     <div class="p-4">
       <div class="flex items-center justify-between">
         <div class="flex items-center">
-          <a href="/" class="flex items-center">
+          <a href={{ "/" | relLangURL }} class="flex items-center">
             <img src="/logo.svg" alt="Logo" class="h-32 sm:h-40 md:h-48">
           </a>
         </div>
-        <div class="flex flex-col font-extrabold text-xl text-right lg:text-2xl lg:flex-row">
-          <div class="block lg:ml-4">
-          <a href="https://supporttudelft.nl/project/safe-refuge" class="align-baseline hover:bg-black hover:text-white px-6 border-2 border-black rounded-xl">
-            donate
-          </a>
+        <div>
+          <div class="justify-end flex text-right font-extrabold text-xl lg:text-2xl lg:text-l flex-row pb-10">
+            {{ range $.Site.Home.AllTranslations }}
+            <div>
+              <a href="{{ .Permalink }}" class="block ml-4 xl:ml-4 hover:text-gray-500 focus:outline-none focus:text-gray-500">{{ .Language.Lang | upper }}</a>
+            </div>
+            {{ end }}
           </div>
-          <a href="/adaptive-reuse" class="block lg:ml-2 xl:ml-4 hover:text-gray-500 focus:outline-none focus:text-gray-500">
-            adaptive reuse
-          </a>
-          <a href="/transitional-house" class="lg:ml-2 xl:ml-4 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
-            transitional house
-          </a>
-          <a href="/education" class="lg:ml-2 xl:ml-4 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
-            education
-          </a>
-          <a href="/our-team" class="lg:ml-2 xl:ml-4 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
-            team
-          </a>
+          <div class="flex flex-col font-extrabold text-xl text-right lg:text-2xl lg:flex-row">
+            <div class="block lg:ml-4">
+              <a href="https://supporttudelft.nl/project/safe-refuge" class="align-baseline hover:bg-black hover:text-white px-6 border-2 border-black rounded-xl">
+                {{ T "donate" }}
+              </a>
+            </div>
+            <a href={{ "/adaptive-reuse" | relLangURL }} class="block lg:ml-2 xl:ml-4 hover:text-gray-500 focus:outline-none focus:text-gray-500">
+              {{ T "adaptive_reuse" }}
+            </a>
+            <a href={{ "/transitional-house" | relLangURL }} class="lg:ml-2 xl:ml-4 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
+              {{ T "transitional_house" }}
+            </a>
+            <a href={{ "/education" | relLangURL }} class="lg:ml-2 xl:ml-4 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
+              {{ T "education" }}
+            </a>
+            <a href={{ "/our-team" | relLangURL }} class="lg:ml-2 xl:ml-4 block hover:text-gray-500 focus:outline-none focus:text-gray-500">
+              {{T "team" }}
+            </a>
           </div>
+        </div>
       </div>
     </div>
   </nav>
@@ -48,7 +57,7 @@
     {{ block "footer" . }}
 
   <hr class="m-8 border-gray-400" />
-  <p class="text-center text-sm text-gray-400">&copy; 2022 All rights reserved</p>
+  <p class="text-center text-sm text-gray-400">&copy; 2022 {{ T "copyright" }}</p>
   {{ end }}
   </div>
   </body>

@@ -1,8 +1,14 @@
 baseURL = 'https://saferefuge.pl'
-languageCode = 'en-us'
+defaultContentLanguage = 'en'
 title = 'project safe refuge'
 canonifyurls = false
 relativeURLs = true
 
+
 [markup.goldmark.renderer]
   unsafe = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
