@@ -15,6 +15,8 @@ international architectural community for our colleagues in Ukraine. It is relev
 generation of architects and engineers and to equip them with the skills and knowledge necessary to tackle the complex 
 challenges related to large-scale reconstruction, which they will face at the beginning of their careers.
 
+<br>
+
 **why?**
 <div class="ml-10">
 

@@ -1,0 +1,45 @@
+[donate]
+other = "donate"
+
+[adaptive_reuse]
+other = "adaptive reuse"
+
+[transitional_house]
+other = "transitional house"
+
+[education]
+other = "education"
+
+[team]
+other = "team"
+
+[copyright]
+other = "All rights reserved"
+
+[contact_us]
+other = "contact us"
+
+[support_us]
+other = "support us"
+
+[about_us]
+other = "about us"
+
+[about_us_paragraph]
+other = """
+The initiative brings together young designers committed to proposing systemic solutions in response to the war in
+Ukraine and the humanitarian crisis in the countries hosting refugees, especially in Poland. In the first weeks of our
+operation, 30 architects, professionals, researchers and graduate students from 15 countries joined Project Safe Refuge
+to address the long-term consequences of the war.
+"""
+
+[our_mission]
+other = "our mission"
+
+[our_mission_paragraph]
+other = """
+In a crisis situation, an immediate response is necessary but strategic ideas and long-term vision are of no less
+importance. We focus our efforts on the housing solutions which are urgently needed now and will continue to be
+necessary long term. Our goal is to provide valuable designer assistance to European cities which face serious
+challenges related to the fastest-growing refugee crisis since WW2.
+"""
