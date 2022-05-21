@@ -19,8 +19,19 @@ other = "All rights reserved"
 [contact_us]
 other = "contact us"
 
+[contact_us_paragraph]
+other = """
+To discuss further questions and receive additional information contact the Project Safe Refuge communication team:
+"""
+
 [support_us]
 other = "support us"
+
+[support_us_paragraph]
+other = """
+If your company identifies with the aims of Project Safe Refuge contact us to receive information about becoming our
+patron or sponsoring partner:
+"""
 
 [about_us]
 other = "about us"
