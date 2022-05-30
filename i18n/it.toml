@@ -1,0 +1,57 @@
+[donate]
+other = "donate"
+
+[adaptive_reuse]
+other = "riutilizzo adattivo"
+
+[transitional_house]
+other = "abitazione transitoria"
+
+[education]
+other = "educazione"
+
+[team]
+other = "team"
+
+[copyright]
+other = "All rights reserved"
+
+[contact_us]
+other = "contattaci"
+
+[contact_us_paragraph]
+other = """
+Per ulteriori domande e informazioni, contatta il team comunicazione di Progetto Safe Refuge:
+"""
+
+[support_us]
+other = "supportaci"
+
+[support_us_paragraph]
+other = """
+Se la tua azienda si identifica con gli ideali del Progetto Safe Refuge, contattaci per ricevere
+informazioni per diventare nostro promotore o partner sponsor:
+"""
+
+[about_us]
+other = "su di noi"
+
+[about_us_paragraph]
+other = """
+L’iniziativa raggruppa giovani designers con l’impegno di promuovere soluzioni sistematiche in risposta alla guerra in
+Ucraina e la conseguente crisi umanitaria nei paesi che ospitano i rifugiati, specialmente in Polonia. Nelle prime
+settimane del nostro lavoro, 30 architetti, professionisti, ricercatori, e studenti laureati provenienti da 15 paesi
+diversi, si sono uniti al Progetto Safe Refuge per preoccuparsi delle conseguenze a lungo termine della guerra.
+"""
+
+[our_mission]
+other = "la nostra missione"
+
+[our_mission_paragraph]
+other = """
+In una situazione di crisi è necessario una risposta immediata e strategica che dia importanza alle soluzioni a lungo
+termine. Noi concentriamo le nostre forze nella realizzazione di abitazioni, estremamente necessarie al momento, e che
+diverranno ancora più importanti col tempo. Il nostro scopo è quello di provvedere assistenza, tramite la nostra
+esperienza di designer, alle diverse città Europee che si trovano ad affrontare le problematiche dovute alla crisi
+umanitaria più grande dopo quella della Seconda guerra Mondiale.
+"""
