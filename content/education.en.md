@@ -25,6 +25,7 @@ challenges related to large-scale reconstruction, which they will face at the be
 We believe that citizens of Ukraine should remain responsible for making key decisions related to the recovery of their 
 country, including those related to the design and rebuilding of their cities, choice of materials, and architectural 
 expression. We want to support them in this process through a transfer of knowledge. 
+Contact us: <a href="mailto:education.research@saferefuge.pl">education.research@saferefuge.pl</a>.
 
 </div>
 
