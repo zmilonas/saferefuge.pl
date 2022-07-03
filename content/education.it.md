@@ -25,7 +25,8 @@ carriere.
 
 Crediamo che i cittadini Ucraini dovrebbero avere la possibilità di prendere decisioni importante riguardanti la ripresa 
 del loro paese, comprese quelle riguardanti il design e la ricostruzione delle loro città, la scelta dei materiali e la 
-tipologia architettonica. Vogliamo supportare questo processo tramite un trasferimento di conoscenza.
+tipologia architettonica. Vogliamo supportare questo processo tramite un trasferimento di conoscenza. 
+Contattaci: <a href="mailto:education.research@saferefuge.pl">education.research@saferefuge.pl</a>.
 
 </div>
 

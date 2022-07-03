@@ -19,7 +19,8 @@ layout: page
 <br>
 
 私たちは、ウクライナの市民が、都市の設計や再建、素材の選択、建築表現など、自国の復興に関わる重要な決定を下すことに責任を持ち続けるべきだと考えていま
-す。私たちは、知識の移転を通じて、そのプロセスをサポートしたいと考えています。
+す。私たちは、知識の移転を通じて、そのプロセスをサポートしたいと考えています。 
+Contact us: <a href="mailto:education.research@saferefuge.pl">education.research@saferefuge.pl</a>.
 
 </div>
 
