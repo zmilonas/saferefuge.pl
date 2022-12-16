@@ -8,4 +8,4 @@ Agnieszka Kołacińska / Dimitris Lampriadis / Weronika Sojka / Natalia Ciastoń
 Daria Palermo / Izabel Todorova / Yihe Chen / Júlia Veiga / Magdalena Walczak / Agnieszka Nowacka 
 / Chaitaly Desphande / Elif Icen / Mariam Jacob
 
-![our team!](/faces.jpg#center "Our team")
+![our team!](/faces_updated.jpg#center "Our team")
